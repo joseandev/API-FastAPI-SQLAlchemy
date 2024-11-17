@@ -1,0 +1,12 @@
+Config/db
+Para la conexion a la bbdd e inicializacion de 'meta' (objeto que manda el esquema de cada tabla a la bd)
+
+routes/user
+Los endpoints relacionados a obtener, eliminar, actualizar algun registro de la tabla 'users'
+
+models/user
+Esquema de tabla del elemento 'user'
+Se manda ese esquema a la bd a traves de 'meta'
+
+app
+Se inicia FastAPI y se le pasa cada ruta (endpoints) por elemento como un objeto
